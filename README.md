@@ -83,6 +83,12 @@ http://www.material-ui.com/#/
 
 https://github.com/amazeui/amazeui-touch
 
+https://github.com/alanrsoares/redux-game-of-life
+
+http://cvuorinen.net/reactive-life/app/
+
+https://darkxahtep.github.io/lifegame/
+
 ``` bash
 python -m SimpleHTTPServer
 ```
