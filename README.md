@@ -1,41 +1,103 @@
-# ReactLab
-A Lab about ReactJS
+# React Lab
+A Lab to learn ReactJS in a creative way.
 
-## Getting started
-https://facebook.github.io/react/docs/tutorial.html
+## 1. Getting started (Week 1)
 
-### JSX
+- https://facebook.github.io/react/docs/tutorial.html
 
-https://facebook.github.io/react/docs/jsx-in-depth.html
+### 1.1 Why React?
 
-https://facebook.github.io/jsx/
+- https://facebook.github.io/react/docs/why-react.html
+- https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
+- https://en.wikipedia.org/wiki/Single_responsibility_principle
 
-### Why React?
+### 1.2 JSX
 
-https://facebook.github.io/react/docs/why-react.html
+- https://facebook.github.io/react/docs/jsx-in-depth.html
+- https://facebook.github.io/jsx/
 
-https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
+### 1.3 Hello World in React (Game 1)
 
-https://en.wikipedia.org/wiki/Single_responsibility_principle
+Create a Web project and try to use React.js in a Web document.
 
-## Your first component
-## Composing components
-## Using props
-## Forms
+To launch in localhost your example exist several alternatives. With Node.js you can use the following module.
 
-https://facebook.github.io/react/docs/forms.html
+``` bash
+npm install http-server -g
+http-server ./YOUR_PATH -p 3000
+```
 
-## Showing a model in a view
+Using Python, you can use the following command:
 
-https://facebook.github.io/react/docs/displaying-data.html
+``` bash
+python -m SimpleHTTPServer
+```
 
-## Fetching from the server
+If you like to share your project in localhost to worldwide, you have 2 alternatives:
 
-## Examples
+https://ngrok.com/
 
-https://github.com/facebook/react/wiki/Examples
+``` bash
+./ngrok authtoken YOUR_TOKEN
+./ngrok http 3000
+```
+
+https://localtunnel.github.io/www/
+
+``` bash
+npm install -g localtunnel
+lt --port 3000 --subdomain myproject1
+```
+
+## 2. Using React in a Document (Week 2)
+
+### 2.1 Forms
+
+- https://facebook.github.io/react/docs/forms.html
+
+### 2.2 Showing a model in a view
+
+- https://facebook.github.io/react/docs/displaying-data.html
+
+### 2.3 Create a contact form with React (Game 2)
+
+## 3. Interacting with the server (Week 3)
+
+### 3.1 React + JQuery
+
+- http://reactfordesigners.com/labs/reactjs-introduction-for-people-who-know-just-enough-jquery-to-get-by/
+- https://jquery.com/
+- http://blog.jquery.com/
+
+### 3.2 Fetching from the server
+
+### 3.3 Send data to the server
+
+### 3.4 Load data from a REST API or Mock in a Document (Game 3)
+
+## 4. SPA with React (Week 4)
+
+### 4.1 What is SPA?
+
+https://medium.com/@sapegin/react-and-redux-single-page-applications-resources-22cd859b0c1d#.lsjjkq1fo
+
+### 4.2 Redux
+
+- http://redux.js.org/
+
+### 4.3 React Router
+
+- https://github.com/reactjs/react-router
+
+### 4.4 Inmutable.js
+
+- https://facebook.github.io/immutable-js/
+
+### 4.5 Create a simple SPA about your favourite hobbie (Game 4)
 
 ## Links
+
+https://github.com/facebook/react/wiki/Examples
 
 https://babeljs.io/repl/
 
@@ -89,9 +151,6 @@ http://cvuorinen.net/reactive-life/app/
 
 https://darkxahtep.github.io/lifegame/
 
-``` bash
-python -m SimpleHTTPServer
-```
 
 
 
