@@ -59,15 +59,15 @@ lt --port 3000 --subdomain myproject1
 
 ## 2. Using React in a Document (Week 2)
 
-### 2.1 Forms
+### 2.1 States (render, getInitialState, change, click, submit, componentWillMount, componentDidMount)
 
 - https://facebook.github.io/react/docs/forms.html
 
-### 2.2 Showing a model in a view
+### 2.2 Creating components with React
 
-- https://facebook.github.io/react/docs/displaying-data.html
+### 2.3 Properties
 
-### 2.3 Create a contact form with React (Game 2)
+### 2.4 Create a contact form with React (Game 2)
 
 ## 3. Interacting with the server (Week 3)
 
