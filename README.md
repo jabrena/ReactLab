@@ -27,6 +27,7 @@ Create a Web project and try to use React.js in a Web document.
 - https://code.jquery.com/
 
 *Deployment notes*
+
 To launch in localhost your example exist several alternatives. With Node.js you can use the following module.
 
 ``` bash
