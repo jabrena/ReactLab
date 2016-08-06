@@ -95,6 +95,32 @@ https://medium.com/@sapegin/react-and-redux-single-page-applications-resources-2
 
 ### 4.5 Create a simple SPA about your favourite hobbie (Game 4)
 
+## Requirements to participate in the "React Games"
+
+To participate in the "React Games" it is necessary to manage:
+
+### Minimum
+
+- Git/Github
+- SublimeText 3
+- Experience in Web development (5 years of experience)
+- JQuery + Ajax
+- HTML5
+
+### Standard
+
+- Gitflow
+- Chrome DevTools
+- Node.js programming
+- Grunt programming
+
+### Premium
+
+- MVC programming (Backbone.js, Angular.js)
+- Material Design / Web Components
+- ES2015
+- Gulp programming
+
 ## Links
 
 https://github.com/facebook/react/wiki/Examples
