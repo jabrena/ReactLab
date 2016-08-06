@@ -59,15 +59,15 @@ lt --port 3000 --subdomain myproject1
 
 ## 2. Using React in a Document (Week 2)
 
-### 2.1 Forms
+### 2.1 States (render, getInitialState, change, click, submit, componentWillMount, componentDidMount)
 
 - https://facebook.github.io/react/docs/forms.html
 
-### 2.2 Showing a model in a view
+### 2.2 Creating components with React
 
-- https://facebook.github.io/react/docs/displaying-data.html
+### 2.3 Properties
 
-### 2.3 Create a contact form with React (Game 2)
+### 2.4 Create a contact form with React (Game 2)
 
 ## 3. Interacting with the server (Week 3)
 
@@ -98,11 +98,21 @@ https://medium.com/@sapegin/react-and-redux-single-page-applications-resources-2
 - https://github.com/reactjs/react-router
 - http://strml.github.io/react-router-component-transition/#/
 
-### 4.4 Inmutable.js
+### 4.4 Reflux.js
+
+- https://github.com/reflux/refluxjs
+
+### 4.5 Inmutable.js
 
 - https://facebook.github.io/immutable-js/
 
-### 4.5 Create a simple SPA about your favourite hobbie (Game 4)
+### 4.6 Create a simple SPA about your favourite hobbie (Game 4)
+
+*Dependencies*
+
+- https://cdnjs.com/libraries/react/
+- https://code.jquery.com/
+- http://www.jsdelivr.com/projects/refluxjs
 
 ## Requirements to participate in the "React Games"
 
@@ -115,6 +125,7 @@ To participate in the "React Games" it is necessary to manage:
 - Experience in Web development (5 years of experience)
 - JQuery + Ajax
 - HTML5
+- Bootstrap
 
 ### Standard
 
@@ -143,6 +154,8 @@ https://github.com/winterbe/spring-react-example/blob/master/src/main/java/com/w
 https://github.com/reflux/refluxjs
 
 https://github.com/DavidWells/isomorphic-react-example
+
+https://react-bootstrap.github.io/
 
 http://www.material-ui.com/#/
 
