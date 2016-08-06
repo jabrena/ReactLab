@@ -15,11 +15,18 @@ A Lab to learn ReactJS in a creative way.
 
 - https://facebook.github.io/react/docs/jsx-in-depth.html
 - https://facebook.github.io/jsx/
+- https://babeljs.io/repl/
 
 ### 1.3 Hello World in React (Game 1)
 
 Create a Web project and try to use React.js in a Web document.
 
+*Dependencies*
+
+- https://cdnjs.com/libraries/react/
+- https://code.jquery.com/
+
+*Deployment notes*
 To launch in localhost your example exist several alternatives. With Node.js you can use the following module.
 
 ``` bash
@@ -88,6 +95,7 @@ https://medium.com/@sapegin/react-and-redux-single-page-applications-resources-2
 ### 4.3 React Router
 
 - https://github.com/reactjs/react-router
+- http://strml.github.io/react-router-component-transition/#/
 
 ### 4.4 Inmutable.js
 
@@ -125,57 +133,18 @@ To participate in the "React Games" it is necessary to manage:
 
 https://github.com/facebook/react/wiki/Examples
 
-https://babeljs.io/repl/
-
-https://cdnjs.com/libraries/react/
-
-https://github.com/azat-co/react
-
 https://github.com/facebook/react-native
-
-https://github.com/reflux/refluxjs
 
 https://github.com/winterbe/spring-react-example
 
 https://github.com/winterbe/spring-react-example/blob/master/src/main/java/com/winterbe/react/React.java
 
-http://survivejs.com/webpack/advanced-techniques/configuring-react/
-
-https://www.npmjs.com/package/preact
-
-https://github.com/Paqmind/react-ultimate
-
-https://github.com/springload/react-d3-integration
-
-https://ericbullington.com/blog/2014/11/16/react-d3-charts/
-
-https://github.com/codesuki/react-d3-components
-
-https://github.com/bgrsquared/d3-react-squared
-
-http://strml.github.io/react-router-component-transition/#/
-
-https://github.com/istarkov/google-map-react-examples
+https://github.com/reflux/refluxjs
 
 https://github.com/DavidWells/isomorphic-react-example
 
-http://www.reactd3.org/
-
-https://github.com/pbeshai/linked-highlighting-react-d3-reflux
-
-https://github.com/bgrsquared/d3-react-squared-dogs-blog
-
-http://bgrsquared.com/dogs/
-
 http://www.material-ui.com/#/
 
-https://github.com/amazeui/amazeui-touch
-
-https://github.com/alanrsoares/redux-game-of-life
-
-http://cvuorinen.net/reactive-life/app/
-
-https://darkxahtep.github.io/lifegame/
 
 
 
