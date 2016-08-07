@@ -10,12 +10,15 @@ A Lab to learn ReactJS in a creative way.
 - https://facebook.github.io/react/docs/why-react.html
 - https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
 - https://en.wikipedia.org/wiki/Single_responsibility_principle
+- https://medium.freecodecamp.com/angular-2-versus-react-there-will-be-blood-66595faafd51#.c9sj6lt8s
 
 ### 1.2 JSX
 
 - https://facebook.github.io/react/docs/jsx-in-depth.html
 - https://facebook.github.io/jsx/
 - https://babeljs.io/repl/
+- https://ponyfoo.com/articles/react-jsx-and-es6-the-weird-parts
+- http://blog.zigomir.com/react.js/jquery/2015/01/11/jquery-versus-react-thinking.html
 
 ### 1.3 Hello World in React (Game 1)
 
