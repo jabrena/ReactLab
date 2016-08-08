@@ -22,7 +22,8 @@ const config = {
         images: './src/images/*',
         css: [
             './node_modules/bootstrap/dist/css/bootstrap.min.css',
-            './src/styles/res.css'
+            './src/styles/res.css',
+            './src/styles/game.css'
         ],
         dist: './dist',
         mainJs: './src/main.js'
@@ -39,6 +40,11 @@ gulp.task("css", ["clean"], () => {
 
 gulp.task("fonts", ["clean"], () => {
     return gulp.src("src/styles/*.ttf")
+        .pipe(gulp.dest(config.paths.dist + "/styles")) 
+})
+
+gulp.task("cssImages", ["clean"], () => {
+    return gulp.src("src/styles/*.jpg")
         .pipe(gulp.dest(config.paths.dist + "/styles")) 
 })
 
@@ -109,4 +115,4 @@ gulp.task("prod", () => {
 
 gulp.task("dist", ["prod", "default"]);
 
-gulp.task("default", ["css", "fonts", "jsx", "jsLibraries", "html", "connect", "open", "watch"]);
+gulp.task("default", ["css", "fonts", "cssImages", "jsx", "jsLibraries", "html", "connect", "open", "watch"]);
