@@ -1,10 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-var Counter = React.createClass({
-    getInitialState: function () {
-        return { count: 0 };
-    },
+var MyCanvas = React.createClass({
     render: function () {
         return (
             <canvas className="res">
@@ -14,8 +11,26 @@ var Counter = React.createClass({
     }
 });
 
+var MySpan = React.createClass({
+    render: function () {
+        return (
+            <span className="sign">mSa</span>
+        );
+    }
+});
+
+var MultipleObjects = React.createClass({
+    render: function () {
+        return (
+            <div>
+                <MyCanvas />
+            </div>
+        );
+    }
+});
+
 ReactDOM.render(
-    <Counter />,
+    <MultipleObjects />,
     document.getElementById('game'), 
     () => {
         ResWeb.init();
