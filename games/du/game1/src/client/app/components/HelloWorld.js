@@ -1,6 +1,6 @@
 import React, {PropTypes} from 'react';
 
-const HelloWorld = props => {
+const HelloWorld = () => {
     return (
         <div>
             <p>Hello World! From a react component!</p>
