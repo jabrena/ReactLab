@@ -9,7 +9,7 @@ const connect = require("gulp-connect"); // Runs a local dev server
 const open = require("gulp-open"); // Open a URL in a web browser
 
 const config = {
-    port: 9005,
+    port: 9006,
     devBaseUrl: 'http://localhost',
     paths: {
         html: './src/*.html',
@@ -22,7 +22,7 @@ const config = {
         images: './src/images/*',
         css: [
             './node_modules/bootstrap/dist/css/bootstrap.min.css',
-            './src/styles/res.css',
+            //'./src/styles/res.css',
             './src/styles/game.css'
         ],
         dist: './dist',
@@ -39,13 +39,13 @@ gulp.task("css", ["clean"], () => {
 })
 
 gulp.task("fonts", ["clean"], () => {
-    return gulp.src("src/styles/*.ttf")
-        .pipe(gulp.dest(config.paths.dist + "/styles")) 
+    return gulp.src("src/styles/fonts/*.*")
+        .pipe(gulp.dest(config.paths.dist + "/styles/fonts")) 
 })
 
 gulp.task("cssImages", ["clean"], () => {
-    return gulp.src("src/styles/*.jpg")
-        .pipe(gulp.dest(config.paths.dist + "/styles")) 
+    return gulp.src("src/styles/images/*.jpg")
+        .pipe(gulp.dest(config.paths.dist + "/styles/images")) 
 })
 
 gulp.task("jsx", ["clean"], () => {
@@ -105,7 +105,7 @@ gulp.task("open", ["connect"], function() {
 
 gulp.task('watch', function() {
     gulp.watch(config.paths.html, ["html2"]);
-    gulp.watch(config.paths.js, ["jsLibraries2"]);
+    //gulp.watch(config.paths.js, ["jsLibraries2"]);
     gulp.watch(config.paths.js, ["jsx2"]);
 })
 
@@ -115,4 +115,4 @@ gulp.task("prod", () => {
 
 gulp.task("dist", ["prod", "default"]);
 
-gulp.task("default", ["css", "fonts", "cssImages", "jsx", "jsLibraries", "html", "connect", "open", "watch"]);
+gulp.task("default", ["css", "fonts", "cssImages", "jsx", "html", "connect", "open", "watch"]);

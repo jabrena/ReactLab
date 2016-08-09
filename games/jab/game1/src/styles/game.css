@@ -1,3 +1,129 @@
 body {
-    background-image: url("./bg.jpg");
+    background-image: url("./images/bg.jpg");
+}
+
+@font-face {
+	font-family: 'Conv_NewGardiner';
+	src: url('fonts/NewGardiner.eot');
+	src: local('☺'), url('fonts/NewGardiner.woff') format('woff'), url('fonts/NewGardiner.ttf') format('truetype'), url('fonts/NewGardiner.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.cssIcon{
+	padding:5px;
+	height:auto;
+}
+
+.cssIcon span{
+	display:inline;
+	padding: 5px;
+}
+.cssIcon span.million:before{
+	font-family:'Conv_NewGardiner',Sans-Serif;
+	content: "\e068";
+	font-size:50px;
+
+}
+
+.cssIcon span.oneHundredThousand:before{
+	font-family:'Conv_NewGardiner',Sans-Serif;
+	content: "\e18f";
+	font-size:50px;
+}
+
+.cssIcon span.oneHundredThousand2:before{
+	font-family:'Conv_NewGardiner',Sans-Serif;
+	content: "\e190";
+	font-size:50px;
+}
+
+.cssIcon span.tenThousand:before{
+	font-family:'Conv_NewGardiner',Sans-Serif;
+	content: "\e0ad";
+	font-size:50px;
+}
+
+.cssIcon span.twentyThousand:before{
+	font-family:'Conv_NewGardiner',Sans-Serif;
+	content: "\e0ae";
+	font-size:50px;
+}
+
+.cssIcon span.sixtyThousand:before{
+	font-family:'Conv_NewGardiner',Sans-Serif;
+	content: "\e0b2";
+	font-size:50px;
+}
+
+.cssIcon span.thousand:before{
+	font-family:'Conv_NewGardiner',Sans-Serif;
+	content: "\e1bc";
+	font-size:50px;
+}
+
+.cssIcon span.oneHundred:before{
+	font-family:'Conv_NewGardiner',Sans-Serif;
+	content: "\e362";
+	font-size:50px;
+}
+
+.cssIcon span.ten:before{
+	font-family:'Conv_NewGardiner',Sans-Serif;
+	content: "\e386";
+	font-size:50px;
+}
+
+.cssIcon span.one:before{
+	font-family:'Conv_NewGardiner',Sans-Serif;
+	content: "\e3fa";
+	font-size:50px;
+}
+
+.cssIcon span.two:before{
+	font-family:'Conv_NewGardiner',Sans-Serif;
+	content: "\e3fb";
+	font-size:50px;
+}
+
+.cssIcon span.three:before{
+	font-family:'Conv_NewGardiner',Sans-Serif;
+	content: "\e3fc";
+	font-size:50px;
+}
+
+.cssIcon span.four:before{
+	font-family:'Conv_NewGardiner',Sans-Serif;
+	content: "\e3fd";
+	font-size:50px;
+}
+
+.cssIcon span.five:before{
+	font-family:'Conv_NewGardiner',Sans-Serif;
+	content: "\e3fe";
+	font-size:50px;
+}
+
+.cssIcon span.six:before{
+	font-family:'Conv_NewGardiner',Sans-Serif;
+	content: "\e3ff";
+	font-size:50px;
+}
+
+.cssIcon span.seven:before{
+	font-family:'Conv_NewGardiner',Sans-Serif;
+	content: "\e400";
+	font-size:50px;
+}
+
+.cssIcon span.eight:before{
+	font-family:'Conv_NewGardiner',Sans-Serif;
+	content: "\e401";
+	font-size:50px;
+}
+
+.cssIcon span.nine:before{
+	font-family:'Conv_NewGardiner',Sans-Serif;
+	content: "\e402";
+	font-size:50px;
 }

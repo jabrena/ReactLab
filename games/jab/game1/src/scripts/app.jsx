@@ -1,38 +1,34 @@
-import React from "react";
-import ReactDOM from "react-dom";
+const React = require("react");
+const ReactDOM = require("react-dom");
 
-var MyCanvas = React.createClass({
+var Figure = React.createClass({
     render: function () {
         return (
-            <canvas className="res">
-            M23*[sep=0.5](X1:N35)-insert[t](G39,Z1)-N12[rotate=180]-F31*[sep=0.5]S29
-            </canvas>
+            <span className={this.props.number}></span>
         );
     }
 });
 
-var MySpan = React.createClass({
+var EgyptianNumbers = React.createClass({
     render: function () {
         return (
-            <span className="sign">mSa</span>
-        );
-    }
-});
-
-var MultipleObjects = React.createClass({
-    render: function () {
-        return (
-            <div>
-                <MyCanvas />
+            <div className="cssIcon">
+                <Figure number="one" />
+                <Figure number="two" />
+                <Figure number="three" />
+                <Figure number="four" />
+                <Figure number="five" />
+                <Figure number="six" />
+                <Figure number="seven" />
+                <Figure number="eight" />
+                <Figure number="nine" />
+                <Figure number="ten" />
             </div>
         );
     }
 });
 
 ReactDOM.render(
-    <MultipleObjects />,
-    document.getElementById('game'), 
-    () => {
-        ResWeb.init();
-    }    
+    <EgyptianNumbers />,
+    document.getElementById('game')
 );
