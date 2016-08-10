@@ -1,7 +1,7 @@
 const React = require("react");
 const ReactDOM = require("react-dom");
 
-var Figure = React.createClass({
+let Figure = React.createClass({
     render: function () {
         return (
             <span className={this.props.number}></span>
@@ -9,26 +9,37 @@ var Figure = React.createClass({
     }
 });
 
-var EgyptianNumbers = React.createClass({
+let EgyptianNumbers = React.createClass({
     render: function () {
         return (
             <div className="cssIcon">
-                <Figure number="one" />
-                <Figure number="two" />
-                <Figure number="three" />
-                <Figure number="four" />
-                <Figure number="five" />
-                <Figure number="six" />
-                <Figure number="seven" />
-                <Figure number="eight" />
-                <Figure number="nine" />
-                <Figure number="ten" />
+                {(() => {
+                    //TODO Improve this syntax. A bit weird.
+                    switch (this.props.number) {
+                        case 1:  return <Figure number="one" />
+                        case 2:  return <Figure number="two" />
+                        case 3:  return <Figure number="three" />
+                        case 4:  return <Figure number="four" />
+                        case 5:  return <Figure number="five" />
+                        case 6:  return <Figure number="six" />
+                        case 7:  return <Figure number="seven" />
+                        case 8:  return <Figure number="eight" />
+                        case 9:  return <Figure number="nine" />
+                        case 10:  return <Figure number="ten" />                                         
+                        default: return "Runtime Exception";
+                    }
+                })()}
             </div>
         );
     }
 });
 
-ReactDOM.render(
-    <EgyptianNumbers />,
-    document.getElementById('game')
-);
+let counter = 0;
+setInterval(function() {
+    if(counter === 10){ counter = 0; }
+    counter++;
+    ReactDOM.render(
+        <EgyptianNumbers number={counter} />,
+        document.getElementById('game')
+    );
+}, 1000);

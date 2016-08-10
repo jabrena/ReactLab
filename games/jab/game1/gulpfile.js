@@ -14,15 +14,11 @@ const config = {
     paths: {
         html: './src/*.html',
         js: [
-            //'./node_modules/jquery/dist/jquery.min.js',
-            //'./node_modules/tether/dist/tether.min.js',
-            //'./node_modules/bootstrap/dist/js/bootstrap.min.js',
-            './src/scripts/res/*.js'
         ],
-        images: './src/images/*',
+        images: './src/styles/images/*.jpg',
+        fonts: './src/styles/fonts/*.*',
         css: [
             './node_modules/bootstrap/dist/css/bootstrap.min.css',
-            //'./src/styles/res.css',
             './src/styles/game.css'
         ],
         dist: './dist',
@@ -39,12 +35,12 @@ gulp.task("css", ["clean"], () => {
 })
 
 gulp.task("fonts", ["clean"], () => {
-    return gulp.src("src/styles/fonts/*.*")
+    return gulp.src(config.paths.fonts)
         .pipe(gulp.dest(config.paths.dist + "/styles/fonts")) 
 })
 
 gulp.task("cssImages", ["clean"], () => {
-    return gulp.src("src/styles/images/*.jpg")
+    return gulp.src(config.paths.images)
         .pipe(gulp.dest(config.paths.dist + "/styles/images")) 
 })
 
@@ -105,7 +101,6 @@ gulp.task("open", ["connect"], function() {
 
 gulp.task('watch', function() {
     gulp.watch(config.paths.html, ["html2"]);
-    //gulp.watch(config.paths.js, ["jsLibraries2"]);
     gulp.watch(config.paths.js, ["jsx2"]);
 })
 
