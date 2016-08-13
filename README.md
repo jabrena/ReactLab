@@ -160,21 +160,17 @@ To participate in the "React Games" it is necessary to manage:
 
 ## Links
 
-https://github.com/facebook/react/wiki/Examples
+- https://github.com/facebook/react/wiki/Examples
+- https://github.com/facebook/react-native
+- https://github.com/winterbe/spring-react-example
+- https://github.com/winterbe/spring-react-example/blob/master/src/main/java/com/winterbe/react/React.java
+- https://github.com/reflux/refluxjs
+- https://github.com/DavidWells/isomorphic-react-example
+- https://react-bootstrap.github.io/
+- http://www.material-ui.com/#/
+- https://facebook.github.io/react-native/blog/2016/03/24/introducing-hot-reloading.html
+- https://github.com/gaearon/react-hot-boilerplate
 
-https://github.com/facebook/react-native
-
-https://github.com/winterbe/spring-react-example
-
-https://github.com/winterbe/spring-react-example/blob/master/src/main/java/com/winterbe/react/React.java
-
-https://github.com/reflux/refluxjs
-
-https://github.com/DavidWells/isomorphic-react-example
-
-https://react-bootstrap.github.io/
-
-http://www.material-ui.com/#/
 
 
 
