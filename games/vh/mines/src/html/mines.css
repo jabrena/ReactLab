@@ -1,0 +1,23 @@
+
+#game td {
+	font-weight: bolder;
+	font-family: monospace;
+	width: 2em;
+	height: 2em;
+	font-size: 1.5em;
+	background: #AAA;
+	border: 4px outset #AAA;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#game td.open {
+	background: #BBB;
+	border: 4px inset #BBB;
+}
+
+#game table {
+	border-spacing: 0;
+	border-collapse: separate;
+}

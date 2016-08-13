@@ -1,0 +1,29 @@
+{
+  "name": "reactmines",
+  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "dist": "gulp dist",
+    "watch": "gulp watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0",
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.0",
+    "immutable": "^3.8.1",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "author": "Víctor Herraiz Posada <victor.herraiz@gmail.com> (https://github.com/victorherraiz)",
+  "license": "MIT"
+}
