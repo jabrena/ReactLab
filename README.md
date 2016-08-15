@@ -19,10 +19,13 @@ A Lab to learn ReactJS in a creative way.
 - https://babeljs.io/repl/
 - https://ponyfoo.com/articles/react-jsx-and-es6-the-weird-parts
 - http://blog.zigomir.com/react.js/jquery/2015/01/11/jquery-versus-react-thinking.html
+- https://ponyfoo.com/articles/react-jsx-and-es6-the-weird-parts
 
 ### 1.3 Hello World in React (Game 1)
 
 Create a Web project and try to use React.js in a Web document.
+
+- https://facebook.github.io/react/docs/top-level-api.html#react.render
 
 *Dependencies*
 
@@ -62,13 +65,23 @@ lt --port 3000 --subdomain myproject1
 
 ## 2. Using React in a Document (Week 2)
 
-### 2.1 States (render, getInitialState, change, click, submit, componentWillMount, componentDidMount)
+### 2.1 React Component Lifecycle
+
+- https://facebook.github.io/react/docs/component-specs.html
+- https://facebook.github.io/react/docs/multiple-components.html
+
+### 2.2 States (render, getInitialState, change, click, submit, componentWillMount, componentDidMount)
 
 - https://facebook.github.io/react/docs/forms.html
 
-### 2.2 Creating components with React
+### 2.2 Adding logic in your components
+
+- https://facebook.github.io/react/tips/if-else-in-JSX.html
+- https://facebook.github.io/react/tips/expose-component-functions.html
 
 ### 2.3 Properties
+
+- https://facebook.github.io/react/docs/reusable-components.html
 
 ### 2.4 Create a contact form with React (Game 2)
 
@@ -95,6 +108,7 @@ https://medium.com/@sapegin/react-and-redux-single-page-applications-resources-2
 ### 4.2 Redux
 
 - http://redux.js.org/
+- https://egghead.io/lessons/javascript-redux-the-single-immutable-state-tree?course=getting-started-with-redux
 
 ### 4.3 React Router
 
@@ -146,21 +160,18 @@ To participate in the "React Games" it is necessary to manage:
 
 ## Links
 
-https://github.com/facebook/react/wiki/Examples
+- https://github.com/facebook/react/wiki/Examples
+- https://github.com/facebook/react-native
+- https://github.com/winterbe/spring-react-example
+- https://github.com/winterbe/spring-react-example/blob/master/src/main/java/com/winterbe/react/React.java
+- https://github.com/reflux/refluxjs
+- https://github.com/DavidWells/isomorphic-react-example
+- https://react-bootstrap.github.io/
+- http://www.material-ui.com/#/
+- https://facebook.github.io/react-native/blog/2016/03/24/introducing-hot-reloading.html
+- https://github.com/gaearon/react-hot-boilerplate
 
-https://github.com/facebook/react-native
 
-https://github.com/winterbe/spring-react-example
-
-https://github.com/winterbe/spring-react-example/blob/master/src/main/java/com/winterbe/react/React.java
-
-https://github.com/reflux/refluxjs
-
-https://github.com/DavidWells/isomorphic-react-example
-
-https://react-bootstrap.github.io/
-
-http://www.material-ui.com/#/
 
 
 
