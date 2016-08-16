@@ -69,8 +69,9 @@ lt --port 3000 --subdomain myproject1
 
 - https://facebook.github.io/react/docs/component-specs.html
 - https://facebook.github.io/react/docs/multiple-components.html
+- https://facebook.github.io/react/docs/tutorial.html
 
-### 2.2 States (render, getInitialState, change, click, submit, componentWillMount, componentDidMount)
+### 2.2 States (render, getInitialState, getDefaultProps, change, click, submit, componentWillMount, componentDidMount)
 
 - https://facebook.github.io/react/docs/forms.html
 
@@ -89,6 +90,7 @@ lt --port 3000 --subdomain myproject1
 
 ### 3.1 React + JQuery
 
+- https://facebook.github.io/react/docs/tutorial.html
 - http://reactfordesigners.com/labs/reactjs-introduction-for-people-who-know-just-enough-jquery-to-get-by/
 - https://jquery.com/
 - http://blog.jquery.com/
@@ -130,6 +132,10 @@ https://medium.com/@sapegin/react-and-redux-single-page-applications-resources-2
 - https://cdnjs.com/libraries/react/
 - https://code.jquery.com/
 - http://www.jsdelivr.com/projects/refluxjs
+
+## 5. TDD with React (Week 5)
+
+- https://github.com/zpratt/react-tdd-guide
 
 ## Requirements to participate in the "React Games"
 
