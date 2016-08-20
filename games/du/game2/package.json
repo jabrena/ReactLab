@@ -29,13 +29,17 @@
   "author": "Daniel Upton",
   "license": "MIT",
   "dependencies": {
+    "jquery": "3.1.0",
+    "material-ui": "0.15.4",
     "object-assign": "4.1.0",
-    "react": "15.2.1",
+    "react": "15.3.1",
     "react-dom": "15.2.1",
     "react-redux": "4.4.5",
     "react-router": "2.6.0",
     "react-router-redux": "4.0.5",
-    "redux": "3.5.2"
+    "react-tap-event-plugin": "1.0.0",
+    "redux": "3.5.2",
+    "toastr": "2.1.2"
   },
   "devDependencies": {
     "autoprefixer": "6.3.7",
