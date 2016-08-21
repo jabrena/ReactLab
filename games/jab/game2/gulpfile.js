@@ -36,7 +36,8 @@ gulp.task("images", () => {
 gulp.task("css", () => {
     return gulp.src(config.paths.css)
         .pipe(concat('bundle.css'))
-        .pipe(gulp.dest(config.paths.dist + "/styles"));
+        .pipe(gulp.dest(config.paths.dist + "/styles"))
+        .pipe(connect.reload());
 })
 
 gulp.task("fonts", () => {
@@ -66,11 +67,6 @@ gulp.task("jsLibraries", () => {
 gulp.task("html", () => {
     return gulp.src("src/*.html")
         .pipe(gulp.dest(config.paths.dist))
-});
-
-gulp.task("html2", () => {
-    return gulp.src("src/*.html")
-        .pipe(gulp.dest(config.paths.dist))
         .pipe(connect.reload());
 });
 
@@ -89,8 +85,8 @@ gulp.task("open", ["connect"], () => {
 });
 
 gulp.task('watch', () => {
-    gulp.watch(config.paths.html, ["html2"]);
-    gulp.watch(config.paths.js, ["jsx2"]);
+    gulp.watch(config.paths.html, ["html"]);
+    gulp.watch(config.paths.html, ["css"]);
 })
 
 gulp.task("prod", () => {

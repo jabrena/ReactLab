@@ -1,3 +1,5 @@
+"use strict";
+
 const React = require("react");
 const ReactDOM = require("react-dom");
 
@@ -10,8 +12,7 @@ function getRandomInt(min, max) {
 setInterval(function() {
     const min = 1;
     const max = 199999;
-    const randomNumber = getRandomInt(min, max)
-    console.log(randomNumber);
+    const randomNumber = getRandomInt(min, max);
     ReactDOM.render(
         <EgyptianNumber number={randomNumber} />,
         $('#game')[0]
