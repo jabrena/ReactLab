@@ -13,6 +13,7 @@ WebFont.load({
 });
 
 let EgyptianNumber = require('./components/egyptianNumber');
+let ValidateNumber = require('./components/validateNumber');
 
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
@@ -42,7 +43,10 @@ function renderView(){
         const max = 199999;
         const randomNumber = getRandomInt(min, max);
         ReactDOM.render(
-            <EgyptianNumber number={randomNumber} />,
+            <div>
+                <EgyptianNumber number={randomNumber} />
+                <ValidateNumber number={randomNumber}/>
+            </div>,
             $(numbersView)[0]
         );
     }
