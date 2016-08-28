@@ -4,6 +4,7 @@ const React = require("react");
 const ReactDOM = require("react-dom");
 
 let Digit = require('./digit');
+let ValidateNumber = require('./validateNumber');
 
 let EgyptianNumber = React.createClass({
     dynamicClass: function(digit, number){
@@ -112,6 +113,7 @@ let EgyptianNumber = React.createClass({
                         return <Digit number={this.dynamicClass(1,index)} />
                     }
                 })()}
+                <ValidateNumber number={this.props.number}/>               
             </div>
         );
     }

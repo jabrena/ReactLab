@@ -13,11 +13,20 @@ const config = {
     paths: {
         html: './src/*.html',
         js: [
+            './node_modules/jquery/dist/jquery.min.js',
+            './node_modules/tether/dist/js/tether.min.js',
+            './node_modules/bootstrap/dist/js/bootstrap.min.js'
+        ],
+        jsx: [
             './src/scripts/index.jsx'
         ],
         images: './src/images/*.png',
-        fonts: './src/styles/fonts/*.*',
+        fonts: [
+            './src/styles/fonts/*.*',
+            './node_modules/font-awesome/fonts/*.*'
+        ],
         css: [
+            './node_modules/font-awesome/css/font-awesome.min.css',
             './node_modules/bootstrap/dist/css/bootstrap.min.css',
             './src/styles/egyptianNumbers.css',
             './src/styles/game.css'
@@ -51,14 +60,14 @@ gulp.task("cssImages", () => {
 })
 
 gulp.task("jsx", () => {
-    return browserify(config.paths.js)
+    return browserify(config.paths.jsx)
         .transform("babelify", { presets: ["es2015", "react"] })
         .bundle()
         .pipe(source("app.js"))
         .pipe(gulp.dest(config.paths.dist + "/scripts"));
 });
 
-gulp.task("jsLibraries", () => {
+gulp.task("js", () => {
     return gulp.src(config.paths.js)
         .pipe(concat('bundle.js'))
         .pipe(gulp.dest(config.paths.dist + "/scripts"));
@@ -95,4 +104,5 @@ gulp.task("prod", () => {
 
 gulp.task("production", ["prod", "default"]);
 
-gulp.task("default", ["images", "css", "fonts", "cssImages", "jsx", "html", "connect", "open", "watch"]);
+gulp.task("default", ["css", "fonts", "cssImages", "jsx", "js", "html", "connect", "open", "watch"]);
+
