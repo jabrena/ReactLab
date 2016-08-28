@@ -31076,12 +31076,12 @@ var React = require("react");
 var ReactDOM = require("react-dom");
 var WebFont = require('webfontloader');
 
-WebFont.load({
-    custom: {
-        families: ['Conv_NewGardiner', 'FontAwesome']
-    },
-    active: renderView
-});
+// WebFont.load({
+//     custom: {
+//         families: ['Conv_NewGardiner','FontAwesome']
+//     },
+//     active: renderView
+// });
 
 var EgyptianNumber = require('./components/egyptianNumber');
 var ValidateNumber = require('./components/validateNumber');
@@ -31117,5 +31117,8 @@ function renderView() {
         ), $(numbersView)[0]);
     }
 }
+renderView();
+
+window.React = React;
 
 },{"./components/egyptianNumber":178,"./components/validateNumber":179,"jquery":2,"react":175,"react-dom":3,"webfontloader":176}]},{},[180]);

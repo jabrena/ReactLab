@@ -5,12 +5,12 @@ const React = require("react");
 const ReactDOM = require("react-dom");
 const WebFont = require('webfontloader');
  
-WebFont.load({
-    custom: {
-        families: ['Conv_NewGardiner','FontAwesome']
-    },
-    active: renderView
-});
+// WebFont.load({
+//     custom: {
+//         families: ['Conv_NewGardiner','FontAwesome']
+//     },
+//     active: renderView
+// });
 
 let EgyptianNumber = require('./components/egyptianNumber');
 let ValidateNumber = require('./components/validateNumber');
@@ -52,5 +52,8 @@ function renderView(){
     }
 
 }
+renderView();
+
+window.React = React; 
 
 
