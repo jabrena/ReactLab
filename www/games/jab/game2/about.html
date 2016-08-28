@@ -20,13 +20,13 @@
         <div class="collapse navbar-toggleable-xs" id="navbar-header">
           <a class="navbar-brand" href="#">Egyptian Maths</a>
           <ul class="nav navbar-nav">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="numbers.html">Learn numbers</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="about.html">About</a>
             </li>
           </ul>
@@ -38,10 +38,50 @@
             <div class="col-xs-12">
                 <br />
                 <div class="card">
-                    <div class="card-header">Learn egyptian maths in an easy way</div>
-                    <div class="card-block text-xs-center">
-                        <div id="game-index"></div>
-                        <a href="numbers.html" class="btn btn-primary">Start</a>
+                    <div class="card-header">About</div>
+                    <div class="card-block  text-md-center">
+                        <p class="card-text">
+Egyptian civilization developed advanced maths in their age.
+This web application tries to learn some aspects about egyptian maths in a gamified way.
+                        </p>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Symbol</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><div class="cssIcon"><span class="oneDigit_1"></span></div></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><div class="cssIcon"><span class="twoDigit_1"></span></div></td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td><div class="cssIcon"><span class="threeDigit_1"></span></div></td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td><div class="cssIcon"><span class="fourDigit_1"></span></div></td>
+      <td>1000</td>
+    </tr>
+    <tr>
+      <td><div class="cssIcon"><span class="fifthDigit_1"></span></div></td>
+      <td>10000</td>
+    </tr>                
+    <tr>
+      <td><div class="cssIcon"><span class="sixthDigit_1"></span></div></td>
+      <td>100000</td>
+    </tr> 
+    <tr>
+      <td><div class="cssIcon"><span class="seventhDigit_1"></span></div></td>
+      <td>1000000</td>
+    </tr>     
+  </tbody>
+</table>                        
                     </div>
                 </div>
             </div>
@@ -53,31 +93,7 @@
         </div>
 
     </div>
-    <script src="scripts/bundle.js"></script>
+    <script src="scripts/bundle.js"></script>  
     <script src="scripts/app.js"></script>
-
-<!--
-<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.4.0/annyang.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/SpeechKITT/0.3.0/speechkitt.min.js"></script>
-<script>
-if (annyang) {
-  // Add our commands to annyang 
-  annyang.addCommands({
-    '101': function() { alert('Hello world!'); }
-  });
- 
-  // Tell KITT to use annyang 
-  SpeechKITT.annyang();
- 
-  // Define a stylesheet for KITT to use 
-  SpeechKITT.setStylesheet('//cdnjs.cloudflare.com/ajax/libs/SpeechKITT/0.3.0/themes/flat.css');
-
-  SpeechKITT.setToggleLabelText("Say hello")
- 
-  // Render KITT's interface 
-  SpeechKITT.vroom();
-}
-</script> 
--->
 </body>
 </html>

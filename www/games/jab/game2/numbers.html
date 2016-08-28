@@ -20,10 +20,10 @@
         <div class="collapse navbar-toggleable-xs" id="navbar-header">
           <a class="navbar-brand" href="#">Egyptian Maths</a>
           <ul class="nav navbar-nav">
-            <li class="nav-item active">
+            <li class="nav-item ">
               <a class="nav-link" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="numbers.html">Learn numbers</a>
             </li>
             <li class="nav-item">
@@ -31,17 +31,15 @@
             </li>
           </ul>
         </div>
-      </nav> <!-- /navbar -->
+      </nav>
 
         
         <div class="row">
             <div class="col-xs-12">
-                <br />
                 <div class="card">
-                    <div class="card-header">Learn egyptian maths in an easy way</div>
-                    <div class="card-block text-xs-center">
-                        <div id="game-index"></div>
-                        <a href="numbers.html" class="btn btn-primary">Start</a>
+                    <div class="card-header">Guess the number</div>
+                    <div class="card-block text-md-left text-xs-center ">
+                        <div id="game-numbers"></div>
                     </div>
                 </div>
             </div>
@@ -53,31 +51,7 @@
         </div>
 
     </div>
-    <script src="scripts/bundle.js"></script>
+    <script src="scripts/bundle.js"></script> 
     <script src="scripts/app.js"></script>
-
-<!--
-<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.4.0/annyang.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/SpeechKITT/0.3.0/speechkitt.min.js"></script>
-<script>
-if (annyang) {
-  // Add our commands to annyang 
-  annyang.addCommands({
-    '101': function() { alert('Hello world!'); }
-  });
- 
-  // Tell KITT to use annyang 
-  SpeechKITT.annyang();
- 
-  // Define a stylesheet for KITT to use 
-  SpeechKITT.setStylesheet('//cdnjs.cloudflare.com/ajax/libs/SpeechKITT/0.3.0/themes/flat.css');
-
-  SpeechKITT.setToggleLabelText("Say hello")
- 
-  // Render KITT's interface 
-  SpeechKITT.vroom();
-}
-</script> 
--->
 </body>
 </html>
