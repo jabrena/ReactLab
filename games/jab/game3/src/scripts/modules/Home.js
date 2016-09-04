@@ -8,7 +8,6 @@ export default React.createClass({
     return (
         <div className="row">
             <div className="col-xs-12">
-                <br />
                 <div className="card">
                     <div className="card-header">Learn egyptian maths in an easy way</div>
                     <div className="card-block text-xs-center">
