@@ -1,0 +1,400 @@
+@font-face {
+    font-family: 'Conv_NewGardiner';
+    src: url('fonts/NewGardiner.eot');
+    src: local('☺'), url('fonts/NewGardiner.woff') format('woff'), url('fonts/NewGardiner.ttf') format('truetype'), url('fonts/NewGardiner.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.cssIcon{
+    padding:5px;
+    height:auto;
+}
+
+.cssIcon span{
+    display:inline-block;
+    padding-right: 10px;
+    font-size: 65px;
+}
+
+/* 1-9 */
+
+.cssIcon span.oneDigit_1:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e3fa";
+}
+
+.cssIcon span.oneDigit_2:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e3fb";
+}
+
+.cssIcon span.oneDigit_3:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e3fc";
+}
+
+.cssIcon span.oneDigit_4:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e3fd";
+}
+
+.cssIcon span.oneDigit_5:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e3fe";
+}
+
+.cssIcon span.oneDigit_6:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e3ff";
+}
+
+.cssIcon span.oneDigit_7:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e400";
+}
+
+.cssIcon span.oneDigit_8:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e401";
+}
+
+.cssIcon span.oneDigit_9:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e402";
+}
+
+/* 10-90 */
+
+.cssIcon span.twoDigit_1:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e386";
+    color: #87CEEB;
+}
+
+.cssIcon span.twoDigit_2:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e387";
+    color: #87CEEB;
+}
+
+.cssIcon span.twoDigit_3:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e388";
+    color: #87CEEB;
+}
+
+.cssIcon span.twoDigit_4:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e389";
+    color: #87CEEB;
+}
+
+.cssIcon span.twoDigit_5:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e38a";
+    color: #87CEEB;
+}
+
+.cssIcon span.twoDigit_6:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e38b";
+    color: #87CEEB;
+}
+
+.cssIcon span.twoDigit_7:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e38c";
+    color: #87CEEB;
+}
+
+.cssIcon span.twoDigit_8:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e38d";
+    color: #87CEEB;
+}
+
+.cssIcon span.twoDigit_9:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e38e";
+    color: #87CEEB;
+}
+
+/* 100-900 */
+
+.cssIcon span.threeDigit_1:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e362";
+    color: #4169E1;
+}
+
+.cssIcon span.threeDigit_2:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e363";
+    color: #4169E1;
+}
+
+.cssIcon span.threeDigit_3:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e364";
+    color: #4169E1;
+}
+
+.cssIcon span.threeDigit_4:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e365";
+    color: #4169E1;
+}
+
+.cssIcon span.threeDigit_5:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e366";
+    color: #4169E1;
+}
+
+.cssIcon span.threeDigit_6:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e367";
+    color: #4169E1;
+}
+
+.cssIcon span.threeDigit_7:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e368";
+    color: #4169E1;
+}
+
+.cssIcon span.threeDigit_8:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e369";
+    color: #4169E1;
+}
+
+.cssIcon span.threeDigit_9:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e36a";
+    color: #4169E1;
+}
+
+/* 1000 - 9000 */
+
+.cssIcon span.fourDigit_1:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e1bc";
+    color: #20B2AA;
+}
+
+.cssIcon span.fourDigit_2:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e1bd";
+    color: #20B2AA;
+}
+
+.cssIcon span.fourDigit_3:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e1be";
+    color: #20B2AA;
+}
+
+.cssIcon span.fourDigit_4:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e1bf";
+    color: #20B2AA;
+}
+
+.cssIcon span.fourDigit_5:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e1c0";
+    color: #20B2AA;
+}
+
+.cssIcon span.fourDigit_6:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e1c1";
+    color: #20B2AA;
+}
+
+.cssIcon span.fourDigit_7:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e1c2";
+    color: #20B2AA;
+}
+
+.cssIcon span.fourDigit_8:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e1c3";
+    color: #20B2AA;
+}
+
+.cssIcon span.fourDigit_9:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e1c4";
+    color: #20B2AA;
+}
+
+/* 10000 - 90000  */
+
+.cssIcon span.fifthDigit_1:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e0ad";
+    color: #FF8C00;
+}
+
+.cssIcon span.fifthDigit_2:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e0ae";
+    color: #FF8C00;
+}
+
+.cssIcon span.fifthDigit_3:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e0af";
+    color: #FF8C00;
+}
+
+.cssIcon span.fifthDigit_4:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e0b0";
+    color: #FF8C00;
+}
+
+.cssIcon span.fifthDigit_5:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e0b6";
+    color: #FF7400 !important;
+}
+
+/*
+.cssIcon span.fifthDigit_5:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e0b1";
+    font-size:150px;
+}
+*/
+
+.cssIcon span.fifthDigit_6:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e0b2";
+    color: #FF8C00;
+}
+
+.cssIcon span.fifthDigit_7:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e0b3";
+    color: #FF8C00;
+}
+
+.cssIcon span.fifthDigit_8:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e0b4";
+    color: #FF8C00;
+}
+
+.cssIcon span.fifthDigit_9:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e0b5";
+    color: #FF8C00;
+}
+
+/* 100000 - 900000 */
+
+.cssIcon span.sixthDigit_1:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e190";
+    color: #2E8B57;
+}
+
+.cssIcon span.sixthDigit_2:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e190 \e190";
+    color: #2E8B57;
+}
+
+.cssIcon span.sixthDigit_3:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e190 \e190 \e190";
+    color: #2E8B57;
+}
+
+.cssIcon span.sixthDigit_4:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e190 \e190 \e190 \e190";
+    color: #2E8B57;
+}
+
+.cssIcon span.sixthDigit_5:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e190 \e190 \e190 \e190 \e190";
+    color: #2E8B57;
+}
+
+.cssIcon span.sixthDigit_6:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e190 \e190 \e190 \e190 \e190 \e190";
+    color: #2E8B57;
+}
+
+.cssIcon span.sixthDigit_7:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e190 \e190 \e190 \e190 \e190 \e190 \e190";
+    color: #2E8B57; 
+}
+
+.cssIcon span.sixthDigit_8:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e190 \e190 \e190 \e190 \e190 \e190 \e190 \e190";
+    color: #2E8B57;
+}
+
+.cssIcon span.sixthDigit_9:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e190 \e190 \e190 \e190 \e190 \e190 \e190 \e190 \e190";
+    color: #2E8B57; 
+}
+
+/* 10000000 */
+
+.cssIcon span.seventhDigit_1:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e068";
+}
+
+.cssIcon span.seventhDigit_2:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e068 \e068";
+}
+
+.cssIcon span.seventhDigit_3:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e068 \e068 \e068";
+}
+
+.cssIcon span.seventhDigit_4:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e068 \e068 \e068 \e068";
+}
+
+.cssIcon span.seventhDigit_5:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e068 \e068 \e068 \e068 \e068";
+}
+
+.cssIcon span.seventhDigit_6:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e068 \e068 \e068 \e068 \e068 \e068";
+}
+
+.cssIcon span.seventhDigit_7:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e068 \e068 \e068 \e068 \e068 \e068 \e068";
+}
+
+.cssIcon span.seventhDigit_8:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e068 \e068 \e068 \e068 \e068 \e068 \e068 \e068";
+}
+
+.cssIcon span.seventhDigit_9:before{
+    font-family:'Conv_NewGardiner',Sans-Serif;
+    content: "\e068 \e068 \e068 \e068 \e068 \e068 \e068 \e068 \e068";
+}
