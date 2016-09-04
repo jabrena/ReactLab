@@ -24,6 +24,10 @@ let ValidateNumber = React.createClass({
     	}
     	document.location.href = "/#home";
     },
+    handleRefreshClick: function (event) {
+        event.preventDefault();
+        window.location.reload()                
+    },
     render: function () {
         return (
             <form className="form-inline">
@@ -43,10 +47,12 @@ let ValidateNumber = React.createClass({
                             	onClick={this.handleClick}>Validate</button>
                         </div>
                         <div className="col-xs-4"> 
-                            <a className="btn btn-secondary" href="#/numbers" role="button">
+                            <a className="btn btn-secondary" href="#/numbers" role="button"
+                            onClick={this.handleRefreshClick}>
                                 <i className="fa fa-refresh"></i>
                             </a>
                         </div>
+
                     </div>
                 </fieldset>
             </form>
