@@ -3,6 +3,7 @@
 const gulp = require("gulp");
 const util = require('gulp-util');
 const concat = require("gulp-concat");
+const uglify = require('gulp-uglify');
 const source = require("vinyl-source-stream");
 const buffer = require('vinyl-buffer');
 const browserify = require("browserify");
@@ -24,7 +25,7 @@ const config = {
             './node_modules/bootstrap/dist/js/bootstrap.min.js'
         ],
         jsx: [
-            './src/scripts/index.jsx'
+            './src/scripts/app.jsx'
         ],
         images: './src/images/*.png',
         fonts: [
@@ -71,6 +72,8 @@ gulp.task("jsx", () => {
         .transform("babelify", { presets: ["es2015", "react"] })
         .bundle()
         .pipe(source("app.js"))
+        .pipe(buffer())
+        .pipe(uglify())
         .pipe(gulp.dest(config.paths.dist + "/scripts"));
 });
 
@@ -138,7 +141,9 @@ gulp.task("prod", () => {
     process.env.NODE_ENV = "production";
 });
 
-gulp.task("production", ["prod", "default"]);
+gulp.task("production", ["prod", "default", "jsx"]);
 
-gulp.task("default", ["css", "fonts", "cssImages", "hmr", "js", "html", "connect", "open", "watch"]);
+gulp.task("dev", ["default", "hmr"]);
+
+gulp.task("default", ["css", "fonts", "cssImages", "js", "html", "connect", "open", "watch"]);
 

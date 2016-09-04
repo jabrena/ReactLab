@@ -9,7 +9,7 @@ export default React.createClass({
               <i className="fa fa-bars" aria-hidden="true"></i>
           </button>
           <div className="collapse navbar-toggleable-xs" id="navbar-header">
-              <a className="navbar-brand" href="#">Egyptian Maths</a>
+              <Link className="navbar-brand" to="/home">Egyptian Maths</Link>
               <ul className="nav navbar-nav">
                   <li className="nav-item active">
                       <Link className="nav-link" to="/home">Home</Link>
