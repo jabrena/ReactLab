@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
- 
+import HomePage from './containers/home/HomePage';
+
 const App = () => (
-  <h1> Hello </h1>
+  <HomePage/>
 );
  
 ReactDOM.render(
