@@ -9,7 +9,8 @@ class FlickrSearch extends Component {
 			title: "nuova casa per bloodymario",
 			media: "http://farm9.staticflickr.com/8307/29502187031_e774c9d35d_m.jpg",
             description: "Test Description",
-			author: "nobody@flickr.com (Imaginaris ph)"
+			author: "nobody@flickr.com (Imaginaris ph)",
+            tags: "discus aquarium pigeonblood fish"
         };
 
         return (
