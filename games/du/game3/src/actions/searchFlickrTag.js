@@ -5,20 +5,21 @@ import axios from 'axios';
 
 const searchFlickrViaTag = function (callack) {
 
-    // axios.get('http://www.flickr.com/services/feeds/photos_public.gne?tags=fish&format=json&jsoncallback=?')
-    //     .then(function (response) {
+    axios.get('http://www.flickr.com/services/feeds/photos_public.gne?tags=fish&format=json')
+        .then(function (response) {
 
-    //         const newStuff = {};
+        
+            const fixCrappyFlickrApi = response.data.replace('jsonFlickrFeed(', '').replace('})', '}');
+            
+            const jsonResponse = JSON.parse(fixCrappyFlickrApi);
 
-    //         console.log(response);
-    //         callack(response, null);
-    //     })
-    //     .catch(function (error) {
-    //         console.log(error);
-    //         callack(null, error);
-    //     });
+            callack(jsonResponse, null);
+        })
+        .catch(function (error) {
 
-    callack("something", null);
+            const newStuff = {};
+            callack(null, error);
+        });
 
 };
 

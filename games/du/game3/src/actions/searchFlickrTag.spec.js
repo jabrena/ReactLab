@@ -7,7 +7,8 @@ describe('searchFlickrTag tests', function () {
 
         searchFlickrTag(function(response, error){
 
-
+            if (error != null) throw error;
+            console.log(response);
             
             done();
 
