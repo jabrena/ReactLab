@@ -6,9 +6,11 @@
     "type": "git",
     "url": "git+https://github.com/jabrena/ReactLab.git"
   },
+  
   "devDependencies": {
-    "grunt": "^0.4.5",
+    "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
+    "babel-preset-es2015": "^6.0.11",
     "grunt-sass": "^1.2.1"
   }
 }
