@@ -1,0 +1,36 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#app {
+
+}
+
+.radio-player {
+
+}
+
+.audio-player {
+  display: none;
+}
+
+.onAir {
+
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}

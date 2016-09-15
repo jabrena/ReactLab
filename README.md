@@ -176,6 +176,9 @@ To participate in the "React Games" it is necessary to manage:
 - http://www.material-ui.com/#/
 - https://facebook.github.io/react-native/blog/2016/03/24/introducing-hot-reloading.html
 - https://github.com/gaearon/react-hot-boilerplate
+- http://ghv.artzub.com/#repo=react&climit=10000&user=AgtLucas
+- http://ghv.artzub.com/#repo=jquery&climit=2000&user=timmywil
+- 
 
 
 

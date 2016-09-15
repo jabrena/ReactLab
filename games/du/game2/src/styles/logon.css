@@ -1,0 +1,20 @@
+.center_form {
+    border-radius: 25px;
+    border: 2px solid lightgray;
+    width: 320px;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -160px;
+    margin-top: -150px;
+}
+
+#logon_submit {
+    padding: 10px;
+}
+
+
+
