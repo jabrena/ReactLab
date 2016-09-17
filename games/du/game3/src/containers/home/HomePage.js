@@ -12,6 +12,7 @@ class HomePage extends Component {
         };
 
         this.loadListOfPoliceForces = this.loadListOfPoliceForces.bind(this);
+        this.clearListOfPoliceForces = this.clearListOfPoliceForces.bind(this);
     }
 
     loadListOfPoliceForces() {
@@ -23,11 +24,19 @@ class HomePage extends Component {
 
         });
     }
+
+    clearListOfPoliceForces() {
+
+        this.setState( { policeForces: [] } );
+
+    }
+
     render() {
         return (
             <div>
-                <h1>Police forces: </h1>
+                <h1>Police Forces List: </h1>
                 <button onClick={this.loadListOfPoliceForces}>Fetch Police Forces</button>
+                <button onClick={this.clearListOfPoliceForces}>Clear List</button>
                 <ul>
                     {this.state.policeForces.map(function (force) {
                         return <li key={force.id}>{force.name}</li>;
