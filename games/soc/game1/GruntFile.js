@@ -29,7 +29,7 @@ module.exports = function(grunt) {
                    transform: [['babelify', {presets: ['es2015', 'react']}]]
                 },        
                 src: ['src/js/app.jsx'],
-                dest: 'dist/js/app.js',
+                dest: '<%= distFolder %>/js/app.js',
               }
             }
     });
