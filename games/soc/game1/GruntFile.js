@@ -2,11 +2,11 @@ module.exports = function(grunt) {
     
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
-        //distFolder: '../../../www/games/soc/game1',
+        distFolder: '../../../www/games/soc/game1',
 
         watch: {
           browserify: {
-            files: ['src/js/**/*.js'],
+            files: ['src/js/**/*.jsx'],
             tasks: ['browserify']
           }
         },
@@ -28,7 +28,7 @@ module.exports = function(grunt) {
                 options: {
                    transform: [['babelify', {presets: ['es2015', 'react']}]]
                 },        
-                src: ['src/js/app.js'],
+                src: ['src/js/app.jsx'],
                 dest: 'dist/js/app.js',
               }
             }
@@ -36,8 +36,10 @@ module.exports = function(grunt) {
 
 
     grunt.loadNpmTasks('grunt-babel');
+    grunt.loadNpmTasks('grunt-contrib-watch');  
     grunt.loadNpmTasks('grunt-browserify');
 
-    grunt.registerTask('default', ['babel']);
+    grunt.registerTask('default', ['browserify']);
+    grunt.registerTask('monitor', ['browserify','watch']);
 
 };

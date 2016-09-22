@@ -1,14 +1,15 @@
-//var React = require('react');
-//var ReactDOM = require('react-dom');
+
+var React = require('react');
+var ReactDOM = require('react-dom');
 
 var HelloWorld = React.createClass({
 
 	getInitialState: function(){
-		return { hello: 'Hello World - with this.state'}
+		return { hellos: 'Hello World - with this.state'}
 	},
     render: function () {
         return (
-            <h1>{this.state.hello}</h1>
+            <h1>{this.state.hellos}</h1>
         );
     }
 });
