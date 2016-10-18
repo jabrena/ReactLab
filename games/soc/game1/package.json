@@ -1,0 +1,24 @@
+{
+  "name": "game1",
+  "description": "EC304CA-Frontend",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jabrena/ReactLab.git"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.0.11",
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "grunt": "^1.0.1",
+    "grunt-babel": "^6.0.0",
+    "grunt-browserify": "^5.0.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^1.2.1"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
